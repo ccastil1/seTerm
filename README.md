@@ -43,10 +43,10 @@ DOSBox
    `cd tceetree`
    
    
-   `./tceetree -i ../cscope.out` this produces tceetree.out
+   `./tceetree -i ../cscope.out` this produces tceetree.out which is a text call graph
    
    
-   `dot -Tpng -O tceetree.out`
+   `dot -Tpng -O tceetree.out` this produces a png file to view the visual call graph
    
    
    `cd ../pagerank-master/cpp`
