@@ -6,15 +6,21 @@ DOSBox
 
 
   `cd dosbox`
+  
+  
   `./grabHtml.py > requirements.txt`
-  `./convertReqstoList.py > finalRequirements.txt`
+  
+  
+  `./convertReqstoList.py > finalRequirements.txt` this produces a list of requirements
 
 
 2.	To extract function information:
 
 
   `cd stereocode-master`
-  `./stereocode –i dosboxUnformatted.xml –f ../../dosbox/dosboxInfo.csv`
+  
+  
+  `./stereocode –i dosboxUnformatted.xml –f ../../dosbox/dosboxInfo.csv` this produces a csv file of function names, file location, and line number
 
 
 3. To create the call graph:
@@ -31,13 +37,13 @@ DOSBox
    `cd cscope`
    
    
-   `cscope -b -c -R`
+   `cscope -b -c -R` this produces cscope.out
    
    
    `cd tceetree`
    
    
-   `./tceetree -i ../cscope.out`
+   `./tceetree -i ../cscope.out` this produces tceetree.out
    
    
    `dot -Tpng -O tceetree.out`
@@ -46,4 +52,4 @@ DOSBox
    `cd ../pagerank-master/cpp`
    
    
-   `pagerank -d "->" ../../tceetree.out`
+   `pagerank -d "->" ../../tceetree.out > pagerankScore.txt` this produces a list of page rank values for each function 
