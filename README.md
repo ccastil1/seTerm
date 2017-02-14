@@ -11,13 +11,19 @@ DOSBox
   `./grabHtml.py > requirements.txt`
   
   
-  `./convertReqstoList.py > finalRequirements.txt` this produces a list of requirements
+  `./convertReqstoList.py > finalRequirements.txt` this produces a list of requirements  
 
 
 2.	To extract function information:
 
 
-  `cd ../stereocode-master`
+  `cd ../srcML/bin`
+  
+  
+  `./srcml ../../dosbox-code/src -o ../../dosbox/dosboxUnformatted.xml` this produces an xml file of all the source code
+
+
+  `cd ../../stereocode-master`
   
   
   `./stereocode –i dosboxUnformatted.xml –f ../../dosbox/dosboxInfo.csv` this produces a csv file of function names, file locations, and line numbers
@@ -78,8 +84,13 @@ Inkscape
 
 2.	To extract function information:
 
+  `cd ../srcML/bin`
+  
+  
+  `./srcml ../../inkscape-0.92.0/src -o ../../inkscape/inkscapeUnformatted.xml` this produces an xml file of all the source code
 
-  `cd ../stereocode-master`
+
+  `cd ../../stereocode-master`
   
   
   `./stereocode –i inkscapeUnformatted.xml –f ../../inkscape/inkscapeInfo.csv` this produces a csv file of function names, file locations, and line numbers
