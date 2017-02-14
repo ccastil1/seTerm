@@ -49,7 +49,7 @@ DOSBox
    `dot -Tpng -O tceetree.out` this produces a png file to view the visual call graph
    
    
-  4. To calculate page rank of the call graph:
+4. To calculate page rank of the call graph:
    
    
    `cd ../pagerank-master/cpp`
