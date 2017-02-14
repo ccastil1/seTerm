@@ -145,7 +145,7 @@ Inkscape
  `cd ../../../../whooshstore-master`
   
   
- `./dosboxWhoosh.py <query>` this produces a list of the top matching functions
+ `./inkscapeWhoosh.py <query>` this produces a list of the top matching functions
  
  
 #NOTES
