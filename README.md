@@ -49,9 +49,12 @@ DOSBox
    `dot -Tpng -O tceetree.out` this produces a png file to view the visual call graph
    
    
+  4. To calculate page rank of the call graph:
+   
+   
    `cd ../pagerank-master/cpp`
    
-   
+ 
    `pagerank -d "->" ../../tceetree.out > pagerankScore.txt` this produces a list of page rank values for each function 
 
 
@@ -108,7 +111,10 @@ Inkscape
    `dot -Tpng -O tceetree.out` this produces a png file to view the visual call graph
    
    
-   `cd ../pagerank-master/cpp`
+4. To calculate page rank of the call graph: 
+ 
+ 
+ `cd ../pagerank-master/cpp`
    
    
-   `pagerank -d "->" ../../tceetree.out > pagerankScore.txt` this produces a list of page rank values for each function 
+ `pagerank -d "->" ../../tceetree.out > pagerankScore.txt` this produces a list of page rank values for each function 
