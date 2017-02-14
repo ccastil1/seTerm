@@ -62,6 +62,14 @@ DOSBox
    
  
    `pagerank -d "->" ../../tceetree.out > pagerankScore.txt` this produces a list of page rank values for each function 
+ 
+5. Text based matching:
+
+
+  `cd ../../../../whooshstore-master`
+  
+  
+  `./dosboxWhoosh.py <query>` this produces a list of the top matching functions
 
 
 
@@ -129,6 +137,15 @@ Inkscape
    
    
  `pagerank -d "->" ../../tceetree.out > pagerankScore.txt` this produces a list of page rank values for each function 
+ 
+ 
+5. Text based matching:
+
+
+ `cd ../../../../whooshstore-master`
+  
+  
+ `./dosboxWhoosh.py <query>` this produces a list of the top matching functions
  
  
 #NOTES
