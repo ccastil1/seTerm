@@ -129,3 +129,12 @@ Inkscape
    
    
  `pagerank -d "->" ../../tceetree.out > pagerankScore.txt` this produces a list of page rank values for each function 
+ 
+ 
+ #NOTES
+ 
+ 
+ 1. I created to xml files for each program. One is (program name)Unformatted.xml and the other is (program name).xml. The unformatted one is just that. In the other, I changed the outer tag name from "unit" to "root", so that it could work with Xpath queries.
+ 
+ 
+
