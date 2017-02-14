@@ -1,6 +1,8 @@
 #TODO
 DOSBox
 1.	To retrieve the requirements from the HTML:
+
+
   `cd dosbox`
   `./grabHtml.py > requirements.txt`
   `./convertReqstoList.py > finalRequirements.txt`
