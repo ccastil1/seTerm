@@ -135,6 +135,9 @@ Inkscape
  
  
 1. I created two xml files for each program. One is (program name)Unformatted.xml and the other is (program name).xml. The unformatted one is just that. In the other, I changed the outer tag name from "unit" to "root", so that it could work with Xpath queries.
+
+
+2. Because of conflicts between unicode and ascii, I was unable to retrieve the function contents into a file. Using .py, I could print the fucntion contents to stdout, but because of the conflicts, the output cannot be written to a text file. 
  
 #PROGRAMS USED
 
@@ -151,4 +154,6 @@ Inkscape
   
   
   5. https://sourceforge.net/p/tceetree/wiki/Home/
-
+  
+  
+  6. https://github.com/knipknap/whooshstore
