@@ -40,7 +40,7 @@ DOSBox
    `cscope -b -c -R` this produces cscope.out
    
    
-   `cd tceetree`
+   `cd tceetree_1_0_1_sources`
    
    
    `./tceetree -i ../cscope.out` this produces tceetree.out which is a text call graph
@@ -99,7 +99,7 @@ Inkscape
    `cscope -b -c -R` this produces cscope.out
    
    
-   `cd tceetree`
+   `cd tceetree_1_0_1_sources`
    
    
    `./tceetree -i ../cscope.out` this produces tceetree.out which is a text call graph
